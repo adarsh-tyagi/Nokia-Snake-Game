@@ -95,12 +95,11 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (e.keyCode === 40) {
       direction = +width;
     }
-
-    up.addEventListener("click", upFn);
-    down.addEventListener("click", downFn);
-    left.addEventListener("click", leftFn);
-    right.addEventListener("click", rightFn);
   }
+  up.addEventListener("click", upFn);
+  down.addEventListener("click", downFn);
+  left.addEventListener("click", leftFn);
+  right.addEventListener("click", rightFn);
 
   document.addEventListener("keyup", control);
   startBtn.addEventListener("click", startGame);
