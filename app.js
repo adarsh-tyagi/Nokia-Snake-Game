@@ -96,6 +96,8 @@ document.addEventListener("DOMContentLoaded", () => {
       direction = +width;
     }
   }
+
+    // buttons for directions
   up.addEventListener("click", upFn);
   down.addEventListener("click", downFn);
   left.addEventListener("click", leftFn);
